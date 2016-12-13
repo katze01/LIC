@@ -10,8 +10,11 @@ Assumptions
 The following are a set of assumptions that can be made about the data that is supplied to the method.
 
 •	There will be no whitespace in the string.
+
 •	All characters in the string will be lower case.
+
 •	The string will only contain alpha characters a-z.
+
 
 Solution required
 
@@ -25,12 +28,19 @@ Tests
 For bonus points, add unit tests for these scenarios:
 
 •	"anna" will return true.
+
 •	"aaaaaaaa" will return true.
+
 •	"aaaaaaaab" will return true.
+
 •	"caaaaaaaab" will return false.
+
 •	"donotbobtonod" will return true.
+
 •	"owefhijpfwai" will return false.
+
 •	"igdedgide" will return true.
+
 
 Language and IDE
 
