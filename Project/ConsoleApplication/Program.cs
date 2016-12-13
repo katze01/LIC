@@ -15,12 +15,15 @@ namespace ConsoleApplication
             {
                 IAssignment myAssignment = scope.Resolve<IAssignment>();
 
+                Console.WriteLine("Please enter a string to check whether it is a palindrome or an anagram of a palindrome. Enter CTRL+Z to exit: ");
                 string input = Console.ReadLine();
+
+                //exit loop when ctrl+z 
                 while (input != null)
                 {
-                    Console.WriteLine(myAssignment.IsPalindromeOrAnagramOfPalindrome(input) ? "true" : "false");
+                    Console.WriteLine(myAssignment.IsPalindromeOrAnagramOfPalindrome(input).ToString());
                     input = Console.ReadLine();
-                }                
+                }
             }
         }
 

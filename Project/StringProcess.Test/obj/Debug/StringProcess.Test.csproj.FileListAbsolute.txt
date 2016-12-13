@@ -20,3 +20,14 @@ D:\Documents\GitHub\LIC\LIC\StringProcess.Test\bin\Debug\Moq.xml
 D:\Documents\GitHub\LIC\LIC\StringProcess.Test\obj\Debug\StringProcess.Test.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\LIC\LIC\StringProcess.Test\obj\Debug\StringProcess.Test.dll
 D:\Documents\GitHub\LIC\LIC\StringProcess.Test\obj\Debug\StringProcess.Test.pdb
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\bin\Debug\StringProcess.Test.dll
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\bin\Debug\StringProcess.Test.pdb
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\bin\Debug\Castle.Core.dll
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\bin\Debug\Moq.dll
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\bin\Debug\StringProcess.dll
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\bin\Debug\StringProcess.pdb
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\bin\Debug\Castle.Core.xml
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\bin\Debug\Moq.xml
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\obj\Debug\StringProcess.Test.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\obj\Debug\StringProcess.Test.dll
+D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess.Test\obj\Debug\StringProcess.Test.pdb

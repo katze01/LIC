@@ -23,9 +23,13 @@ namespace StringProcess
             if (inputString == null)
                 throw new ArgumentNullException("Input String is null");
 
-            // if the reversed string equals to the input string, then the input string is a palindrome 
-            string reversed = new string(Enumerable.Range(1, inputString.Length).Select(i => inputString[inputString.Length - i]).ToArray());
-            return String.Compare(inputString, reversed, true) == 0;
+            char[] charArray = inputString.ToCharArray();
+            for (int i = 0; i < charArray.Length / 2; i++)
+            {
+                if (charArray[i] != charArray[charArray.Length - i - 1])
+                    return false;
+            }
+            return true;
         }
 
         /// <summary>
