@@ -1,0 +1,9 @@
+D:\Projects\LIC\LIC\StringProcess\bin\Debug\StringProcess.dll
+D:\Projects\LIC\LIC\StringProcess\bin\Debug\StringProcess.pdb
+D:\Projects\LIC\LIC\StringProcess\obj\Debug\StringProcess.dll
+D:\Projects\LIC\LIC\StringProcess\obj\Debug\StringProcess.pdb
+D:\Documents\GitHub\LIC\LIC\StringProcess\bin\Debug\StringProcess.dll
+D:\Documents\GitHub\LIC\LIC\StringProcess\bin\Debug\StringProcess.pdb
+D:\Documents\GitHub\LIC\LIC\StringProcess\obj\Debug\StringProcess.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\LIC\LIC\StringProcess\obj\Debug\StringProcess.dll
+D:\Documents\GitHub\LIC\LIC\StringProcess\obj\Debug\StringProcess.pdb
