@@ -21,8 +21,18 @@ namespace ConsoleApplication
                 //exit loop when ctrl+z 
                 while (input != null)
                 {
-                    Console.WriteLine(myAssignment.IsPalindromeOrAnagramOfPalindrome(input).ToString());
-                    input = Console.ReadLine();
+                    try
+                    {
+                        Console.WriteLine(myAssignment.IsPalindromeOrAnagramOfPalindrome(input).ToString());
+                    }
+                    catch(Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    finally
+                    {
+                        input = Console.ReadLine();
+                    }
                 }
             }
         }

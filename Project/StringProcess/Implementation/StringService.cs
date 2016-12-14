@@ -21,7 +21,7 @@ namespace StringProcess
         public bool IsPalindrome(string inputString)
         {
             if (inputString == null)
-                throw new ArgumentNullException("Input String is null");
+                return false;
 
             char[] charArray = inputString.ToCharArray();
             for (int i = 0; i < charArray.Length / 2; i++)
@@ -41,7 +41,7 @@ namespace StringProcess
         public bool IsAnagram(string inputString)
         {
             if (inputString == null)
-                throw new ArgumentNullException("Input String is null");
+                return false;
 
             //Compute the times that each character in the input string
             IDictionary<string, int> characterList = new Dictionary<string, int>();

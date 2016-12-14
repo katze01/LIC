@@ -24,10 +24,9 @@ namespace StringProcess.Test
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentNullException), "Input String is null")]
         public void IsPalindrome_TestNull()
         {
-            _testStringService.IsPalindrome(null);
+            Assert.AreEqual(false, _testStringService.IsPalindrome(null));
         }
 
         [TestMethod]

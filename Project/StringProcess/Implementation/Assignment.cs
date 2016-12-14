@@ -24,22 +24,15 @@ namespace StringProcess
         /// <returns></returns>
         public bool IsPalindromeOrAnagramOfPalindrome(string inputString)
         {
-            if (inputString == null)
-                throw new ArgumentNullException("Input String is null");
+            //Validate input string
+            StringHelper.Validation(inputString);
 
-            try
-            {
-                //check whether the input string is a palindrome, or an anagram of a palindrome
-                if (_stringService.IsPalindrome(inputString) || _stringService.IsAnagram(inputString))
-                    return true;
+            //check whether the input string is a palindrome, or an anagram of a palindrome
+            if (_stringService.IsPalindrome(inputString) || _stringService.IsAnagram(inputString))
+                return true;
 
-                //otherwise, return false
-                return false;
-            }
-            catch(Exception)
-            {
-                throw;
-            }
+            //otherwise, return false
+            return false;
         }
         #endregion
     }

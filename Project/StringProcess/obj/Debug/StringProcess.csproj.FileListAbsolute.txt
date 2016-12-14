@@ -9,6 +9,5 @@ D:\Documents\GitHub\LIC\LIC\StringProcess\obj\Debug\StringProcess.dll
 D:\Documents\GitHub\LIC\LIC\StringProcess\obj\Debug\StringProcess.pdb
 D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess\bin\Debug\StringProcess.dll
 D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess\bin\Debug\StringProcess.pdb
-D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess\obj\Debug\StringProcess.csprojResolveAssemblyReference.cache
 D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess\obj\Debug\StringProcess.dll
 D:\Documents\GitHub\NewLIC\LIC\Project\StringProcess\obj\Debug\StringProcess.pdb

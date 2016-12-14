@@ -25,16 +25,25 @@ namespace StringProcess.Test
         }
 
         [TestMethod]
+        [ExpectedException(typeof(ArgumentException), "Not Valid Input")]
+        public void IsPalindromeOrAnagramOfPalindrome_TestInvalidInput()
+        {
+            _test.IsPalindromeOrAnagramOfPalindrome("123");
+        }
+
+        [TestMethod]
         [ExpectedException(typeof(ArgumentNullException), "Input String is null")]
         public void IsPalindromeOrAnagramOfPalindrome_TestNull()
         {
             _test.IsPalindromeOrAnagramOfPalindrome(null);
+
         }
 
         [TestMethod]
+        [ExpectedException(typeof(ArgumentException), "Not Valid Input")]
         public void IsPalindromeOrAnagramOfPalindrome_TestEmpty()
         {
-            Assert.AreEqual(true, _test.IsPalindromeOrAnagramOfPalindrome(""));
+            _test.IsPalindromeOrAnagramOfPalindrome("");
         }
 
         [TestMethod]

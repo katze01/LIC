@@ -24,10 +24,9 @@ namespace StringProcess.Test
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentNullException), "Input String is null")]
         public void IsAnagram_TestNull()
         {
-            _testStringService.IsAnagram(null);
+            Assert.AreEqual(false, _testStringService.IsAnagram(null));
         }
 
         [TestMethod]
