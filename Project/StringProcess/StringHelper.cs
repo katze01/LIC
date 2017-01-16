@@ -3,6 +3,7 @@ using System.Text.RegularExpressions;
 
 //test
 //test2
+//test_ katze
 namespace StringProcess
 {
     public class StringHelper
