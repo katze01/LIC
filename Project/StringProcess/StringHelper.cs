@@ -2,6 +2,7 @@
 using System.Text.RegularExpressions;
 
 //test
+//test2
 namespace StringProcess
 {
     public class StringHelper
