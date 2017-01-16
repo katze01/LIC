@@ -4,6 +4,7 @@ using System.Text.RegularExpressions;
 //test
 //test2
 //test_ katze
+//test2_katze
 namespace StringProcess
 {
     public class StringHelper
