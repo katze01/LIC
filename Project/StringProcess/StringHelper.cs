@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
+//test
 namespace StringProcess
 {
     public class StringHelper
